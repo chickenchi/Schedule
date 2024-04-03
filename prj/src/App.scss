@@ -1,0 +1,31 @@
+.Footer {
+  bottom: 0px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.Header {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.Section {
+  position: absolute;
+  top: 100px;
+  margin-left: 10px;
+  text-align: center;
+
+  table {
+    width: 50rem;
+    height: 16rem;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    width: 10rem;
+    height: 1rem;
+    padding: 15px;
+  }
+}
